@@ -5,18 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Hudelsis_P1_AP1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Registro Ciudades" Height="200" Width="350">
     <Grid>
          
          <Menu IsMainMenu="True" VerticalAlignment="Top">
             <MenuItem Header="_Registro">
-                <MenuItem Name="rClientesMenu" Header="Registro de Clientes" />
-                <MenuItem Name="rPrestamosMenu" Header="Registro de prestamos" />
-            </MenuItem>
-
-            <MenuItem Header="_Consultar">
-                <MenuItem Name="cClientesMenu" Header="Consulta de Clientes" />
-                <MenuItem Name="cPrestamosMenu" Header="Consulta de prestamos" /> 
+                <MenuItem Name="rCiudadMenu" Header="Registro de Ciudades" Click="rCiudadMenu_Click" />
+               
             </MenuItem>
 
             <MenuItem Name="AyudaMenu" Header="Ayuda" />

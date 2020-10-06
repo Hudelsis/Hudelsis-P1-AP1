@@ -55,6 +55,12 @@ namespace Hudelsis_P1_AP1.UI.Registro
                 MessageBox.Show("Transaccion Fallida", "Fallo");
             }
 
+            if(CiudadBLL.GetList(c => c.Nombres == NombresTextBox.Text).Count > 0)
+            {
+                esValido = false;
+                MessageBox.Show("Transaccion Fallida", "Fallo");
+            }
+
             return esValido; 
         }
 
@@ -83,12 +89,6 @@ namespace Hudelsis_P1_AP1.UI.Registro
         }
 
         private void NuevoButton_Click(object sender, RoutedEventArgs e)
-        {
-            Limpiar(); 
-            editando = false;
-        } 
-
-        private void GuardarCiudadButton_Click(object sender, RoutedEventArgs e)
         {
             Limpiar(); 
             editando = false;

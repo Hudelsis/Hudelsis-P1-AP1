@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Hudelsis_P1_AP1.UI.Registro"
         mc:Ignorable="d"
-        Title="rCiudad" Height="450" Width="800">
+        Title="rCiudad" Height="200" Width="400">
     <Grid>
      <StackPanel Margin="10,5,10,0">
 
@@ -16,8 +16,8 @@
 
                 <Button x:Name = "BuscarButton" Margin="5,0"  Width="110" Click="BuscarButton_Click">
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="/Resources/Guardar.png" Width="20" Height="20"/>
-                        <Label Content="Guardar"  FontWeight="Bold"/>
+                        <Image Source="/Resources/buscar.png" Width="20" Height="20"/>
+                        <Label Content="Buscar"  FontWeight="Bold"/>
                     </StackPanel>
                 </Button>
 

@@ -11,8 +11,13 @@
          <Menu IsMainMenu="True" VerticalAlignment="Top">
             <MenuItem Header="_Registro">
                 <MenuItem Name="rCiudadMenu" Header="Registro de Ciudades" Click="rCiudadMenu_Click" />
-               
-            </MenuItem>
+               </MenuItem>
+
+               <MenuItem Header="_Consultar">
+                <MenuItem Name="cCiudadMenu" Header="Consulta de Ciudades" Click="cCiudadMenu_Click"/>
+               </MenuItem>
+
+            
 
             <MenuItem Name="AyudaMenu" Header="Ayuda" />
         </Menu>

@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Hudelsis_P1_AP1.UI.Registro;
+using Hudelsis_P1_AP1.UI.Consultas;
 
 namespace Hudelsis_P1_AP1
 {
@@ -31,6 +32,18 @@ namespace Hudelsis_P1_AP1
             ventana.Show();
 
             
+        }
+        private void cCiudadMenu_Click(object sender, RoutedEventArgs e)
+        {
+            cCiudad ventana = new cCiudad();
+            ventana.Show();
+
+            
+            
+        }
+        private void AyudaMenu_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
